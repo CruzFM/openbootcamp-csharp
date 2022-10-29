@@ -1,0 +1,10 @@
+﻿int number = 18;
+char someChar = 'a';
+bool firstBool = number >= 18;
+Console.WriteLine(firstBool);
+bool secondBool = someChar == 'a';
+Console.WriteLine(secondBool);
+bool thirdBool = number >= 18 && someChar == 'a';
+Console.WriteLine(thirdBool);
+bool fourthBool = number <= 18 || someChar == 'a';
+Console.WriteLine(fourthBool);
